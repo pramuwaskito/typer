@@ -387,4 +387,9 @@ INTRUSION BLOCKED - TRACE IN PROGRESS...
 
 ACCESS COMPLETE - RETURNING TO MAIN TERMINAL
 
-`)},3e3);return}if(!o){u&&(t(""),n(0),c(!1));const R=Math.floor(Math.random()*5)+3;n(z=>Math.min(z+R,qi.length))}}};
+`)},3e3);return}if(!o){u&&(t(""),n(0),c(!1));const R=Math.floor(Math.random()*5)+3;n(z=>Math.min(z+R,qi.length))}}};return document.addEventListener("keydown",C),()=>document.removeEventListener("keydown",C)},[o,u]),v.useEffect(()=>{t(qi.slice(0,r))},[r]),v.useEffect(()=>{w.current&&(w.current.scrollTop=w.current.scrollHeight)},[e]);const N=e.split(`
+`);return a.jsxs("div",{className:"h-screen bg-terminal-bg text-terminal-text font-mono overflow-hidden flex flex-col relative",children:[f&&a.jsx("div",{className:"absolute inset-0 z-50 flex items-center justify-center bg-black/80 backdrop-blur-sm animate-fade-in",children:a.jsxs("div",{className:"text-center font-mono",children:[a.jsx("div",{className:"text-6xl font-bold text-terminal-text mb-4 animate-pulse drop-shadow-[0_0_20px_hsl(var(--terminal-text))]",children:"ACCESS GRANTED"}),a.jsx("div",{className:"text-xl text-terminal-cursor animate-fade-in",children:"SYSTEM BREACH SUCCESSFUL"})]})}),d&&a.jsx("div",{className:"absolute inset-0 z-50 flex items-center justify-center bg-black/80 backdrop-blur-sm animate-fade-in",children:a.jsxs("div",{className:"text-center font-mono",children:[a.jsx("div",{className:"text-6xl font-bold text-red-500 mb-4 animate-pulse drop-shadow-[0_0_20px_rgba(239,68,68,0.8)]",children:"ACCESS DENIED"}),a.jsx("div",{className:"text-xl text-red-400 animate-fade-in",children:"UNAUTHORIZED INTRUSION DETECTED"})]})}),a.jsxs("div",{ref:w,className:"flex-1 overflow-y-auto scrollbar-hide p-4 leading-relaxed text-sm",style:{scrollbarWidth:"none",msOverflowStyle:"none",paddingBottom:"120px"},children:[a.jsx("style",{children:`
+          .scrollbar-hide::-webkit-scrollbar {
+            display: none;
+          }
+        `}),!i&&a.jsx(vt,{path:"*",element:a.jsx(GE,{})})]})})})]})})});qm(document.getElementById("root")).render(a.jsx(qE,{}));
